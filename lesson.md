@@ -7,13 +7,15 @@
 
 Установить переменные окружения `JAVA_HOME` и добавить ее в `PATH`
 ```
-#Для Windows
+# Для Windows
 set JAVA_HOME = C:\Program Files\Java\jdk13
-#Для Linux
+# Для Linux
 export JAVA_HOME=/usr/java/jdk13 /bin/java
+# Для MacOS
+export JAVA_HOME=$(/usr/libexec/java_home)
 ```
 
-Результат, при выполнении комнанды в консоле вы должны будете увидеть подобный результат
+Результат, при выполнении команды в консоле вы должны будете увидеть подобный результат
 ```
 sboychenko@macbook ~ % java --version 
 java 11.0.6 2020-01-14 LTS
